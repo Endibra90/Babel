@@ -1,0 +1,21 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.29.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "build": "yarn sass && yarn js",
+    "sass": "sass input.scss dist/style.css",
+    "js": "babel . --out-dir dist --ignore node_modules",
+    "prebuild": "del dist"
+  },
+  "author": "",
+  "license": "ISC"
+}

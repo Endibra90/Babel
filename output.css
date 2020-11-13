@@ -1,0 +1,22 @@
+body *.dark {
+  background-color: black;
+  color: white;
+}
+body *.ligth {
+  background-color: white;
+  color: black;
+}
+
+header {
+  height: 20%;
+}
+
+section {
+  height: 30%;
+}
+
+footer {
+  height: 50%;
+}
+
+/*# sourceMappingURL=output.css.map */
